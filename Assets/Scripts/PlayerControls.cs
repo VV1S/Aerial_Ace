@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerControls : MonoBehaviour
 {
     [SerializeField] float speedRegulator=15f;
+    [SerializeField] float xRange = 10f;
+    [SerializeField] float yRange = 7f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,12 +22,14 @@ public class PlayerControls : MonoBehaviour
 
         float xOffset = xThrow* Time.deltaTime*speedRegulator;
         float xNewPos = transform.localPosition.x + xOffset;
+        float clampedXPos = Mathf.Clamp(xNewPos,-xRange, xRange);
 
         float yOffset = yThrow * Time.deltaTime * speedRegulator;
         float yNewPos = transform.localPosition.y + yOffset;
+        float clampedYPos = Mathf.Clamp(yNewPos, -yRange, yRange);
 
        transform.localPosition = new Vector3
-            (xNewPos, yNewPos, transform.localPosition.z);
+            (clampedXPos, clampedYPos, transform.localPosition.z);
     }
 }
  
