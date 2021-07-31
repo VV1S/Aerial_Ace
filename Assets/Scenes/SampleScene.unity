@@ -628,6 +628,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 360166283}
     m_Modifications:
+    - target: {fileID: 2065931443, guid: 0ce7093d62c801b46b3e4f98f4e2991b, type: 3}
+      propertyPath: positionYawFactor
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2065931443, guid: 0ce7093d62c801b46b3e4f98f4e2991b, type: 3}
+      propertyPath: positionPitchFactor
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 4387954681215328367, guid: 0ce7093d62c801b46b3e4f98f4e2991b, type: 3}
       propertyPath: m_Name
       value: Player Ship
