@@ -15,6 +15,9 @@ MonoBehaviour:
   speedRegulator: 15
   xRange: 10
   yRange: 7
+  lasers:
+  - {fileID: 8870551415897209199}
+  - {fileID: 8166848350159166393}
   positionPitchFactor: -2
   controlPitchFactor: -15
   positionYawFactor: 2
@@ -28,7 +31,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1734771206656390, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
       propertyPath: m_Name
-      value: Player Ship
+      value: Player Ship Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4197128655073178, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
       propertyPath: m_RootOrder
@@ -109,6 +112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser Right
       objectReference: {fileID: 0}
+    - target: {fileID: 3245005680973448273, guid: 6c5808f8a6a686a449556f44a1000f70, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4190629261625251465, guid: 6c5808f8a6a686a449556f44a1000f70, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -147,6 +154,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c5808f8a6a686a449556f44a1000f70, type: 3}
+--- !u!1 &8166848350159166393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 70986955349690238, guid: 6c5808f8a6a686a449556f44a1000f70, type: 3}
+  m_PrefabInstance: {fileID: 8190441402219814087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8928023152834526737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -196,3 +208,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c5808f8a6a686a449556f44a1000f70, type: 3}
+--- !u!1 &8870551415897209199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 70986955349690238, guid: 6c5808f8a6a686a449556f44a1000f70, type: 3}
+  m_PrefabInstance: {fileID: 8928023152834526737}
+  m_PrefabAsset: {fileID: 0}
