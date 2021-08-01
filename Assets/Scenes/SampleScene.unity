@@ -493,10 +493,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2246247330277770614, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
-      propertyPath: sound
-      value: 
-      objectReference: {fileID: 8300000, guid: 6afec90e69fbece49993326c36366b82, type: 3}
     - target: {fileID: 2580362752695167765, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
       propertyPath: m_Name
       value: Player Rig
