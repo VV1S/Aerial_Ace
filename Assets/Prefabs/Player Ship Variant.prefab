@@ -7,9 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2065931443, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: boxCollider
+      value: 
+      objectReference: {fileID: 4388127834109574869}
     - target: {fileID: 1734771206656390, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
       propertyPath: m_Name
       value: Player Ship Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785570626129934, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916788754009916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4197128655073178, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
       propertyPath: m_RootOrder
@@ -55,5 +67,67 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5516319855246840916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: boxCollider
+      value: 
+      objectReference: {fileID: 4388127834109574869}
+    - target: {fileID: 5516319855246840916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: boxColliders
+      value: 
+      objectReference: {fileID: 4388127834109574869}
+    - target: {fileID: 5516319855246840916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: meshes.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516319855246840916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: meshes.Array.data[0]
+      value: 
+      objectReference: {fileID: 4388014277826732519}
+    - target: {fileID: 5516319855246840916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: meshes.Array.data[1]
+      value: 
+      objectReference: {fileID: 4388261718606037197}
+    - target: {fileID: 5516319855246840916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: meshes.Array.data[2]
+      value: 
+      objectReference: {fileID: 4388622518059776777}
+    - target: {fileID: 5516319855246840916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: meshes.Array.data[3]
+      value: 
+      objectReference: {fileID: 4388525182614667337}
+    - target: {fileID: 5516319855246840916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+      propertyPath: meshes.Array.data[4]
+      value: 
+      objectReference: {fileID: 4388401873676845415}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+--- !u!1 &4388127834109574869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1916788754009916, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+  m_PrefabInstance: {fileID: 4387363978885476841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4388014277826732519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1785570626129934, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+  m_PrefabInstance: {fileID: 4387363978885476841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4388261718606037197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1460715477365028, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+  m_PrefabInstance: {fileID: 4387363978885476841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4388622518059776777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1276148733151968, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+  m_PrefabInstance: {fileID: 4387363978885476841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4388525182614667337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1161281047015840, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+  m_PrefabInstance: {fileID: 4387363978885476841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4388401873676845415 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1600940368654478, guid: 33942a27e06a55e498652847d7d15f99, type: 3}
+  m_PrefabInstance: {fileID: 4387363978885476841}
+  m_PrefabAsset: {fileID: 0}
