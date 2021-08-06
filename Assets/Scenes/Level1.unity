@@ -252,6 +252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  parent: {fileID: 2120862734}
 --- !u!95 &360166282 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2580362752695167766, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
@@ -550,6 +552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  parent: {fileID: 2120862734}
 --- !u!136 &1134259942
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -705,6 +709,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2120862733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2120862734}
+  m_Layer: 0
+  m_Name: Spawn At Runetime
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2120862734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120862733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2580362752518051996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -712,6 +746,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2565648860042821142, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2580362752695167765, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
       propertyPath: m_Name
       value: Player Rig
@@ -764,6 +802,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3354391115930278044, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4420445690651241356, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811535527077983703, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281968928176308838, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6146886097654682543, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
 --- !u!1 &2580362752518051997 stripped
@@ -771,19 +829,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2578701676166379946, guid: d38f8095dd9af91438b0578816f96e5f, type: 3}
   m_PrefabInstance: {fileID: 2580362752518051996}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2580362752518051998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2580362752518051997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 403d0aa1a78a07748be2a476645e8754, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelLoadDelay: 1
 --- !u!54 &2580362752518052003
 Rigidbody:
   m_ObjectHideFlags: 0
