@@ -155,9 +155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &97375610
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -365,9 +368,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!1 &167044352
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,9 +406,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &167044354
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -518,9 +527,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &362836778
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -703,9 +715,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &575389453
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -816,9 +831,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &668819410
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1000,9 +1018,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &912583868
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1113,9 +1134,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &924338090
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1226,9 +1250,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &944282434
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1435,9 +1462,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &1134259942
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1625,9 +1655,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &1301818977
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1738,9 +1771,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &1837425711
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1851,9 +1887,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9e06b18b7c433488e8f50c3876ad0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  deathVFX: {fileID: 5027676262691266505, guid: 7a97a25ffb8071d4686b946bc36217c4, type: 3}
+  hitVFX: {fileID: 6839911450213711806, guid: 55ef4545d307acd478b3900480b198c2, type: 3}
   parent: {fileID: 2120862734}
   scoreToIncrease: 20
+  hitPoints: 2
+  dealedDamage: 1
 --- !u!136 &1919282711
 CapsuleCollider:
   m_ObjectHideFlags: 0
