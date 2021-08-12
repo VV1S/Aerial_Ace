@@ -209,6 +209,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &34460890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8360131426580257397, guid: 787dcdfaf4e974d4696f175b79c92404, type: 3}
+  m_PrefabInstance: {fileID: 8710254204968638031}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &97375608
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,13 +778,20 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 6449384148335865010, guid: fb6726d80139e894d9c812054c4afe21, type: 2}
     value: {fileID: 360166282}
+  - key: {fileID: 738989327504881419, guid: fb6726d80139e894d9c812054c4afe21, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
+    - 48fde78ec8a885b429f4bb809e4395fa: {fileID: 34460890}
     - a84476b7916478d4289987696978636d: {fileID: 6344281865446311380}
     - 571d9fc085fcacf48aebb7de79a735c8: {fileID: 1207544359}
     - 1995819fd42d3194789078111a176d82: {fileID: 111933097}
+    - 5d9dcc1af6940ec4491bed8ae6d6eaaa: {fileID: 34460890}
     - fbb774960b486e64590b13e9d5c8c758: {fileID: 1799253355}
     - 3412dffa09ca84e4b9a745eb7830c167: {fileID: 772804503}
+    - 38e9cbf2e6c35f845bb2e91750543609: {fileID: 34460890}
+    - a6985c2723c531e469b99e690698c207: {fileID: 34460890}
+    - f792fa94cf350e14f8dd81deff4449d8: {fileID: 34460890}
 --- !u!95 &515583888
 Animator:
   serializedVersion: 3
@@ -1664,7 +1676,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6c6a746272b5a1847a51c6447f3539e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
